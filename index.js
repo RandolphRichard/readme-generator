@@ -3,9 +3,9 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 const generateRead = require("./utils/generateRead");
-//end imports
 
-// array of questions for user
+
+// Putting array of questions for user
 const questions = [
   {
     type: "input",
@@ -60,7 +60,7 @@ const questions = [
     message: "Who are the contributors of this project?",
   },
 ];
-// end array of questions for user
+// end array of questions
 
 // function to generate readMe
 function init() {
@@ -73,14 +73,14 @@ function init() {
     );
   });
 }
-//end function to generate Readme
+//end function
 
-// function to write README file
+// function to write the README file
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 // end function to write README file
 
-// function call to initialize program
+// function callback to initialize program
 init();
-// end function call to initialize program
+// end function callback to initialize program
