@@ -3,13 +3,13 @@
 function generateRead(answers) {
     return `
   ## Table of Contents: 
-  - [Name](#name)
+  - [Name](#project-name)
   - [License](#license)
   - [Description](#description)
-  - [Installation Instructions](#installationInstructions)
-  - [Test](#test)
-  - [GitHub](#gitHub)
-  - [Email](#email)
+  - [Installation Instructions](#installation-instructions)
+  - [Test Command](#test-command)
+  - [Github Username](#github-username)
+  - [Email Address](#email-address)
   - [Contributors](#contributors)
 
   # Project Name:
@@ -27,13 +27,13 @@ function generateRead(answers) {
   ## Test Command: 
   To Run and test it, type: ( ${answers.test} )  into the terminal.
   
-  ## My Github Username: 
+  ## Github Username: 
   You can review more projects on my Github at https://github.com/${answers.gitHub}
   
-  ## My Email Address:
+  ## Email Address:
   If you need to get a hold of me with additional questions you can reach me by email at ${answers.email}
   
-  ## Other Contributors:
+  ## Contributors:
   ${answers.contributors}
   `;
   }

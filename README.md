@@ -1,35 +1,35 @@
 
   ## Table of Contents: 
-  - [Name](#name)
+  - [Name](#project-name)
   - [License](#license)
   - [Description](#description)
-  - [Installation Instructions](#installationInstructions)
-  - [Test](#test)
-  - [GitHub](#gitHub)
-  - [Email](#email)
+  - [Installation Instructions](#installation-instructions)
+  - [Test Command](#test-command)
+  - [Github Username](#github-username)
+  - [Email Address](#email-address)
   - [Contributors](#contributors)
 
   # Project Name:
   ReadMe Generator
 
   ## License:
-  [![License:MIT](https://img.shields.io/badge/MIT-License-green.svg)](https://opensource.org/licenses/MIT)
+  [![License:MirOS](https://img.shields.io/badge/MirOS-License-green.svg)](https://opensource.org/licenses/MirOS)
   
   ## Description:
   Using Node to Create a ReadMe file by using the Terminal.
 
   ## Installation Instructions: 
-  
+  Npm install inquirer, using require, fs, Javascript code link through utils folder and file
   
   ## Test Command: 
   To Run and test it, type: ( node index.js )  into the terminal.
   
-  ## My Github Username: 
+  ## Github Username: 
   You can review more projects on my Github at https://github.com/RandolphRichard
   
-  ## My Email Address:
+  ## Email Address:
   If you need to get a hold of me with additional questions you can reach me by email at randolphrichard9@gmail.com
   
-  ## Other Contributors:
+  ## Contributors:
   opensource.org and shields.io
   
