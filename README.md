@@ -1,35 +1,41 @@
+## README generator
 
-  ## Table of Contents: 
-  - [Name](#project-name)
-  - [License](#license)
-  - [Description](#description)
-  - [Installation Instructions](#installation-instructions)
-  - [Test Command](#test-command)
-  - [Github Username](#github-username)
-  - [Email Address](#email-address)
-  - [Contributors](#contributors)
+ ## Personal description
 
-  # Project Name:
-  ReadMe Generator
+https://watch.screencastify.com/v/ewfxXFg6ebL7CgPPu5i3
 
-  ## License:
-  [![License:MirOS](https://img.shields.io/badge/MirOS-License-green.svg)](https://opensource.org/licenses/MirOS)
-  
-  ## Description:
-  Using Node to Create a ReadMe file by using the Terminal.
+ ## Purpose
+* AS A developer, I WANT a README generator
+SO THAT I can quickly create a professional README for a new project.
 
-  ## Installation Instructions: 
-  Npm install inquirer, using require, fs, Javascript code link through utils folder and file
-  
-  ## Test Command: 
-  To Run and test it, type: ( node index.js )  into the terminal.
-  
-  ## Github Username: 
-  You can review more projects on my Github at https://github.com/RandolphRichard
-  
-  ## Email Address:
-  If you need to get a hold of me with additional questions you can reach me by email at randolphrichard9@gmail.com
-  
-  ## Contributors:
-  opensource.org and shields.io
+## Requirements
+* GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+* THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+* WHEN I enter my project title
+THEN this is displayed as the title of the README
+* WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+* WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+* WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+* WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+* WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+
+## Built With
+* Javascript
+* Node
+* NPM Install
+
+## GitHub Repositories
+https://github.com/RandolphRichard/readme-generator
+
+## Screenshots
+
+
+## Contribution
+Made with ❤️ by Randolph Richard
   
