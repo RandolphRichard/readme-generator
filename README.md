@@ -34,8 +34,8 @@ THEN I am taken to the corresponding section of the README
 https://github.com/RandolphRichard/readme-generator
 
 ## Screenshots
-
+![](/assets/1.png)
+![](/assets/2.png)
 
 ## Contribution
 Made with ❤️ by Randolph Richard
-  
